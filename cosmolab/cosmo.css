@@ -1,6 +1,6 @@
-body {
+/* body {
   font-size: .875rem;
-}
+} */
 
 .feather {
   width: 20px;
@@ -149,4 +149,8 @@ body, html {
 
 .rounded {
   border-radius: 0.5rem !important;
+}
+
+.rounded-heavy {
+  border-radius: 2rem !important;
 }
