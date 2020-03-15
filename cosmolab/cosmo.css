@@ -1,7 +1,7 @@
+/*cosmo.css begins now*/
 /* body {
   font-size: .875rem;
 } */
-
 .feather {
   width: 20px;
   height: 20px;
@@ -9,8 +9,8 @@
 }
 
 /*
- * Sidebar
- */
+* Sidebar
+*/
 
 .sidebar {
   position: fixed;
@@ -33,34 +33,34 @@
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sidebar-sticky {
-    position: -webkit-sticky;
-    position: sticky;
+      position: -webkit-sticky;
+      position: sticky;
   }
 }
 
 .sidebar .nav-link {
   font-weight: 500;
-  color:whitesmoke;
+  color: whitesmoke;
   font-size: 1.2rem;
 }
 
-.sidebar .nav-link .feather {
-  margin-right: 4px;
-  color: whitesmoke;
-}
+  .sidebar .nav-link .feather {
+      margin-right: 4px;
+      color: whitesmoke;
+  }
 
-.sidebar .nav-link.active {
-  font-weight: 900;
-}
+  .sidebar .nav-link.active {
+      font-weight: 900;
+  }
 
-.sidebar .nav-link:hover .feather {
-  color: inherit;
-}
+  .sidebar .nav-link:hover .feather {
+      color: inherit;
+  }
 
-.sidebar .nav-link.active .feather {
-  color: inherit;
-  font-weight: 900;
-}
+  .sidebar .nav-link.active .feather {
+      color: inherit;
+      font-weight: 900;
+  }
 
 .sidebar-heading {
   font-size: .75rem;
@@ -68,22 +68,22 @@
 }
 
 /*
- * Content
- */
+* Content
+*/
 
 [role="main"] {
-  padding-top: 133px; /* Space for fixed navbar */
+  padding-top: 24px; /* Space for fixed navbar */
 }
 
 @media (min-width: 768px) {
   [role="main"] {
-    padding-top: 48px; /* Space for fixed navbar */
+      padding-top: 48px; /* Space for fixed navbar */
   }
 }
 
 /*
- * Navbar
- */
+* Navbar
+*/
 
 .navbar-brand {
   padding-top: .75rem;
@@ -105,10 +105,10 @@
   border-color: rgba(255, 255, 255, .1);
 }
 
-.form-control-dark:focus {
-  border-color: transparent;
-  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
-}
+  .form-control-dark:focus {
+      border-color: transparent;
+      box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: whitesmoke;
@@ -130,9 +130,7 @@ body, html {
 .bg {
   /* The image used */
   background-image: url(872558_71498.webp);
-
   width: 100%;
-
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: repeat;
