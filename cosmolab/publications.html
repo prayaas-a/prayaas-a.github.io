@@ -35,7 +35,7 @@
                             </span>
                         </button>
                         <div class="nav-item">
-                            <a class="nav-link active row"  href="index.html">
+                            <a class="nav-link row"  href="index.html">
                                 <div name="hamburger_icons" class="col-6 col-md-9 col-lg-3 d-inline-block float-left px-1 text-right">
                                     <span data-feather="home"></span>
                                 </div>
@@ -59,7 +59,7 @@
                             </a>
                         </div>
                         <div class="nav-item">
-                            <a class="nav-link row" href="publications.html">
+                            <a class="nav-link active row" href="publications.html">
                                 <div name="hamburger_icons" class="col-6 col-md-9 col-lg-3 d-inline-block float-left px-1 text-right">
                                     <span data-feather="book"></span>
                                 </div>
@@ -110,22 +110,34 @@
                                 </button>
                             </div>
                             <div class="col-lg-9">
-                                <h1 id="title-el" class="text-light float-left">Welcome to the USC CosmoLab</h1>
+                                <h1 id="title-el" class="text-light float-left">People</h1>
                             </div>
                         </div>
-                        <div class="row">
-                          <div class="col-lg-9">
-                            <p style="padding-top: 20px;" class="text-light float-left">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus massa, rhoncus nec porttitor vitae, pharetra vitae augue. Fusce viverra volutpat ante a iaculis. Aliquam erat volutpat. Maecenas a justo odio. Vivamus ornare erat et enim tincidunt, eget vehicula erat tincidunt. Nam semper neque ornare arcu hendrerit, a ornare nisi euismod. Etiam nulla enim, rutrum sit amet aliquet ut, mattis quis odio. Aliquam erat volutpat.
-                            </p>
-                            <p class="text-light float-left">
-                                Duis vitae ipsum lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec vel tempor velit. Ut scelerisque sapien est, in sollicitudin felis sodales at. Morbi dignissim justo in justo porta, ac pulvinar quam mollis. Vestibulum eget magna leo. Sed venenatis tellus quis ante vulputate viverra. Phasellus placerat sapien eu nibh ullamcorper, ultricies suscipit mauris sollicitudin. Nulla facilisi. Nam quis euismod diam. Nam ut condimentum ex. Nullam a ultrices eros, sit amet facilisis nisl. Pellentesque in magna sem.
-                            </p>
-                            <p class="text-light float-left">
-                                Ut turpis magna, semper nec massa quis, tempus venenatis orci. Aliquam erat volutpat. Nullam ac blandit tellus. Praesent commodo ex purus, vitae dignissim justo egestas a. Nunc condimentum nulla quis arcu blandit gravida. Vivamus molestie consequat viverra. Nam iaculis velit non fringilla gravida. Aenean eget euismod dui. Donec diam nulla, ultricies a faucibus vitae, efficitur et ligula. Donec sit amet purus non nibh fringilla condimentum vel sit amet ligula.
-                            </p>
-                        </div>
-                        <div class="col my-auto px-5 py-5 px-md-0 py-md-0">
+                        <div class="row" style="padding-top: 20px;">
+                            <ul class="col">
+                                <li class="text-light float-left readable">
+                                    <a class="custom-hyperlink" href="http://google.com">
+                                        Sample link 1
+                                    </a>
+                                    <br />
+                                    You can insert links to webpages like Google Scholar profiles or PDFs by editing the 'href' attribute in the source code.
+                                </li>
+                                <li class="text-light float-left readable">
+                                    <a class="custom-hyperlink" href="http://google.com">
+                                        Sample link 2
+                                    </a>
+                                    <br />
+                                    The contrast is enhanced further here so the blue is readable. Let me know if I should change it more.
+                                </li>
+                                <li class="text-light float-left readable">
+                                    <a class="custom-hyperlink" href="http://google.com">
+                                        Sample link 3
+                                    </a>
+                                    <br />
+                                    And another.
+                                </li>
+                            </ul>
+                        <div class="col-lg-3 my-auto px-5 py-5 px-md-0 py-md-0">
                             <img style="padding: 5%;" src="placeholder.png" class="rounded-heavy img-fluid float-right ml-auto" alt="..." />
                         </div>
                         </div>
@@ -145,8 +157,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
     <script src="cosmo.js" asp-append-version="true"></script>
-    <script src="~/js/highcharts.src.js"></script>
-    <script src="~/js/themes/dark-unica.js"></script>
     <script>
         function getViewport() {
             // https://stackoverflow.com/a/8876069
